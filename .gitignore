@@ -1,0 +1,21 @@
+# Build output
+target/
+
+# Compiled class files
+*.class
+
+# IDE/project files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper binary
+.mvn/wrapper/maven-wrapper.jar
+
+
