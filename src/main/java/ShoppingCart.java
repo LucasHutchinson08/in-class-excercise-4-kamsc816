@@ -11,8 +11,8 @@ public class ShoppingCart {
         System.out.println("How many items are you purchasing? ");
         int num = sc.nextInt();
         double price = 0;
-        for (int i=0; i<=num; i++){
-            System.out.println("Price of item " + i);
+        for (int i=1; i<=num; i++){
+            System.out.println("Price of item " + i + "?");
             price += sc.nextDouble();
         }
         System.out.println("Your cart has " + num + "items with a total cost of $" + price);
